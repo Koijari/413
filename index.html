@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slot.css">
+    <link rel="shortcut icon" href="pics/tag.ico" type="image/x-icon">
+    <title>Slot Machine</title>
+</head>
+<body>
+
+    <!--Top section elements-->
+    <div class="views">
+        <div id="balance">100</div>
+        <div id="winWin"></div>
+        <div id="stake">1</div>
+    </div>
+    
+    <!--Spinners-->
+    <div id="winLine"></div>
+    <div class="spins">              
+        <div class="spin" id="spin0"></div>
+        <div class="spin" id="spin1"></div>
+        <div class="spin" id="spin2"></div>
+        <div class="spin" id="spin3"></div>
+    </div>
+
+    <div class="winTable"></div>
+
+    <!--Game play buttons-->
+    <div class="controls">
+        <div class="locks">
+            <input type="button" class="lock" id="lock0" value="LOCK">
+            <input type="button" class="lock" id="lock1" value="LOCK">
+            <input type="button" class="lock" id="lock2" value="LOCK">
+            <input type="button" class="lock" id="lock3" value="LOCK"> 
+        </div>
+        <div class="choice">
+            <input type="button" class="play" id="play" value="PLAY">
+            <input type="button" class="bet" id="bet" value="BET">
+        </div>
+    </div>
+
+<footer>
+    JMK &copy; <a href="mailto: janne.kolari@esedulainen.fi">Email</a>
+    <span>
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!">
+    </span>
+</footer>
+
+<script src="slot.js"></script>
+</body>
+</html>

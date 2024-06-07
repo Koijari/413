@@ -1,0 +1,147 @@
+/*General CSS*/
+body {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    background-image: url('pics/martians.png');
+    background-size: 100vw 100vh;
+}
+
+/*Top section*/
+.views {
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    margin: 9px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#balance, #stake {
+    width: 20%;
+    height: 4rem;
+    background-color: gold;
+    text-align: center;
+    align-content: center;
+    font-family: Comic Sans MS;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: darkgreen;
+    border-radius: 6px;
+    border: 1px solid crimson;
+}
+#winWin {
+    position: absolute;
+    height: 25vh;
+    top: 10vh;
+    left: 35%;
+    margin: 0 auto;
+    padding: 2px;
+    text-shadow: 5px 3px 3px gray;
+    border-radius: 10px;
+    background-repeat: repeat-x;
+    justify-content: center;
+    background-position-x: 15px;
+    align-items: first baseline;
+    text-align: center;
+    color: red;
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    font-size: 4.5em;
+    z-index: 2;
+}
+
+/*Mid section*/
+.winTable {
+    position: fixed;
+    width: 15vw;
+    height: 50vh;
+    top: 15%;
+    left: 1%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('pics/wTable.png');
+}
+
+/*Spinners & decor*/
+#winLine {
+    position: sticky;
+    width: 70%;
+    height: 5px;
+    background-color: blue;
+    top: 40%;
+    opacity: 0.3;
+    margin: 0 auto;
+}
+/*Spinner box & Spinners*/
+.spins {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: gold;
+    padding: 5px;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+.spin {
+    width: 180px;
+    height: 320px;       
+    background-repeat: repeat-y;
+    background-position-y: 65px;
+    overflow: hidden;
+    transition: background-position-y 0ms;    
+    border: 1px solid black;
+    margin: 5px; 
+    background-image: url('pics/laner.png');
+}
+
+/*Play control buttons*/
+.controls {
+    width: 60%;
+    height: fit-content; 
+    margin: 0 auto;    
+}
+.locks, .choice {    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;  
+}
+.lock {
+    font-size: 2em;
+    width: 20%;
+    height: 4rem;
+    background-color: darkred;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#play {
+    font-size: 2em;
+    width: 20%;
+    height: 4rem;
+    background-color: lawngreen;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#bet {
+    font-size: 2em;
+    width: 20%;
+    height: 4rem;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Footer section*/
+footer {
+    font-family: Comic Sans MS;
+    float: right;
+}
+footer a {
+    text-decoration: none;
+    background-color: aquamarine;
+    color: blue;
+}
